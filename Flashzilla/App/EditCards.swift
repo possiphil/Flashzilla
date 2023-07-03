@@ -8,8 +8,43 @@
 import SwiftUI
 
 struct EditCards: View {
+    @Environment(\.dismiss) var dismiss
+    
+    @EnvironmentObject var vm: ViewModel
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            List {
+                Section("Add new card") {
+                    TextField("Prompt", text: $vm.prompt)
+                    TextField("Answer", text: $vm.answer)
+                    Button("Add card", action: { vm.add() })
+                }
+                
+                Section("Cards") {
+                    ForEach(vm.cards) { card in
+                        VStack(alignment: .leading) {
+                            Text(card.prompt)
+                                .font(.headline)
+                            
+                            Text(card.answer)
+                                .foregroundColor(.secondary)
+                        }
+                    }
+                    .onDelete(perform: vm.remove)
+                }
+            }
+            .navigationTitle("Edit Cards")
+            .toolbar {
+                Button("Done", action: done)
+            }
+            .listStyle(.grouped)
+            .onAppear(perform: { vm.load() })
+        }
+    }
+    
+    func done() {
+        dismiss()
     }
 }
 

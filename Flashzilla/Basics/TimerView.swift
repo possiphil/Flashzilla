@@ -8,8 +8,20 @@
 import SwiftUI
 
 struct TimerView: View {
+    let timer = Timer.publish(every: 1, tolerance: 0.5, on: .main, in: .common).autoconnect() // tolerance can be used for optimisation when timer doesn't have to be 100% correct
+    @State private var counter = 0
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("Hello, World!")
+            .onReceive(timer) { time in
+                if counter == 5 {
+                    timer.upstream.connect().cancel()
+                } else {
+                    print("The time is now \(time)")
+                }
+                
+                counter += 1
+            }
     }
 }
 

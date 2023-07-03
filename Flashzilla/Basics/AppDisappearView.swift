@@ -8,8 +8,19 @@
 import SwiftUI
 
 struct AppDisappearView: View {
+    @Environment(\.scenePhase) var scenePhase
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("Hello, World!")
+            .onChange(of: scenePhase) { newPhase in
+                if newPhase == .active {
+                    print("active")
+                } else if newPhase == .inactive {
+                    print("inactive")
+                } else if newPhase == .background {
+                    print("background")
+                }
+            }
     }
 }
 

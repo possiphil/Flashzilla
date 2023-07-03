@@ -11,6 +11,19 @@
 		4A013D29297E4DA3000E0011 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A013D28297E4DA3000E0011 /* ContentView.swift */; };
 		4A013D2B297E4DA4000E0011 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A013D2A297E4DA4000E0011 /* Assets.xcassets */; };
 		4A013D2E297E4DA4000E0011 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A013D2D297E4DA4000E0011 /* Preview Assets.xcassets */; };
+		4A013D36297E4DCF000E0011 /* GestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A013D35297E4DCF000E0011 /* GestureView.swift */; };
+		4A013D38297E5275000E0011 /* VibrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A013D37297E5275000E0011 /* VibrationView.swift */; };
+		4A013D3A297E57E6000E0011 /* HitTestingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A013D39297E57E6000E0011 /* HitTestingView.swift */; };
+		4A013D3C297E5AA0000E0011 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A013D3B297E5A9F000E0011 /* TimerView.swift */; };
+		4A013D3E297E5CE2000E0011 /* AppDisappearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A013D3D297E5CE2000E0011 /* AppDisappearView.swift */; };
+		4A013D40297E5DF5000E0011 /* AccessibilitySettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A013D3F297E5DF5000E0011 /* AccessibilitySettingsView.swift */; };
+		4A041D392980F33A0016DE60 /* EditCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A041D382980F33A0016DE60 /* EditCards.swift */; };
+		4A041D3B2980FB9D0016DE60 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A041D3A2980FB9D0016DE60 /* ViewExtension.swift */; };
+		4A3C1666297F9CBC00CF902D /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3C1665297F9CBC00CF902D /* Card.swift */; };
+		4A3C1668297F9D6F00CF902D /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3C1667297F9D6F00CF902D /* CardView.swift */; };
+		4A3C166A297F9F3500CF902D /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3C1669297F9F3500CF902D /* AppView.swift */; };
+		4AFC7EBC29961AB50009272F /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AFC7EBB29961AB50009272F /* ViewModel.swift */; };
+		4AFC7EBE29961B3F0009272F /* FileManagerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AFC7EBD29961B3F0009272F /* FileManagerExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +32,19 @@
 		4A013D28297E4DA3000E0011 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4A013D2A297E4DA4000E0011 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A013D2D297E4DA4000E0011 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4A013D35297E4DCF000E0011 /* GestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureView.swift; sourceTree = "<group>"; };
+		4A013D37297E5275000E0011 /* VibrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VibrationView.swift; sourceTree = "<group>"; };
+		4A013D39297E57E6000E0011 /* HitTestingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HitTestingView.swift; sourceTree = "<group>"; };
+		4A013D3B297E5A9F000E0011 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		4A013D3D297E5CE2000E0011 /* AppDisappearView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDisappearView.swift; sourceTree = "<group>"; };
+		4A013D3F297E5DF5000E0011 /* AccessibilitySettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilitySettingsView.swift; sourceTree = "<group>"; };
+		4A041D382980F33A0016DE60 /* EditCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCards.swift; sourceTree = "<group>"; };
+		4A041D3A2980FB9D0016DE60 /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		4A3C1665297F9CBC00CF902D /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		4A3C1667297F9D6F00CF902D /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		4A3C1669297F9F3500CF902D /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		4AFC7EBB29961AB50009272F /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		4AFC7EBD29961B3F0009272F /* FileManagerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +79,8 @@
 			children = (
 				4A013D26297E4DA3000E0011 /* FlashzillaApp.swift */,
 				4A013D28297E4DA3000E0011 /* ContentView.swift */,
+				4A013D41297E60B8000E0011 /* App */,
+				4A013D34297E4DBF000E0011 /* Basics */,
 				4A013D2A297E4DA4000E0011 /* Assets.xcassets */,
 				4A013D2C297E4DA4000E0011 /* Preview Content */,
 			);
@@ -65,6 +93,33 @@
 				4A013D2D297E4DA4000E0011 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4A013D34297E4DBF000E0011 /* Basics */ = {
+			isa = PBXGroup;
+			children = (
+				4A013D35297E4DCF000E0011 /* GestureView.swift */,
+				4A013D37297E5275000E0011 /* VibrationView.swift */,
+				4A013D39297E57E6000E0011 /* HitTestingView.swift */,
+				4A013D3B297E5A9F000E0011 /* TimerView.swift */,
+				4A013D3D297E5CE2000E0011 /* AppDisappearView.swift */,
+				4A013D3F297E5DF5000E0011 /* AccessibilitySettingsView.swift */,
+			);
+			path = Basics;
+			sourceTree = "<group>";
+		};
+		4A013D41297E60B8000E0011 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				4A3C1665297F9CBC00CF902D /* Card.swift */,
+				4A041D382980F33A0016DE60 /* EditCards.swift */,
+				4A3C1667297F9D6F00CF902D /* CardView.swift */,
+				4A3C1669297F9F3500CF902D /* AppView.swift */,
+				4AFC7EBB29961AB50009272F /* ViewModel.swift */,
+				4A041D3A2980FB9D0016DE60 /* ViewExtension.swift */,
+				4AFC7EBD29961B3F0009272F /* FileManagerExtension.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +192,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A013D3E297E5CE2000E0011 /* AppDisappearView.swift in Sources */,
+				4A3C1666297F9CBC00CF902D /* Card.swift in Sources */,
+				4A013D3C297E5AA0000E0011 /* TimerView.swift in Sources */,
 				4A013D29297E4DA3000E0011 /* ContentView.swift in Sources */,
+				4A3C166A297F9F3500CF902D /* AppView.swift in Sources */,
+				4A3C1668297F9D6F00CF902D /* CardView.swift in Sources */,
+				4AFC7EBC29961AB50009272F /* ViewModel.swift in Sources */,
 				4A013D27297E4DA3000E0011 /* FlashzillaApp.swift in Sources */,
+				4A013D36297E4DCF000E0011 /* GestureView.swift in Sources */,
+				4A013D38297E5275000E0011 /* VibrationView.swift in Sources */,
+				4AFC7EBE29961B3F0009272F /* FileManagerExtension.swift in Sources */,
+				4A041D392980F33A0016DE60 /* EditCards.swift in Sources */,
+				4A013D40297E5DF5000E0011 /* AccessibilitySettingsView.swift in Sources */,
+				4A013D3A297E57E6000E0011 /* HitTestingView.swift in Sources */,
+				4A041D3B2980FB9D0016DE60 /* ViewExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,13 +335,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Flashzilla/Preview Content\"";
+				DEVELOPMENT_TEAM = PMUCGBJYJT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -295,13 +364,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Flashzilla/Preview Content\"";
+				DEVELOPMENT_TEAM = PMUCGBJYJT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

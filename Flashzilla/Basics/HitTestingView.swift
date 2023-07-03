@@ -9,7 +9,33 @@ import SwiftUI
 
 struct HitTestingView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text("Hello")
+            Spacer().frame(height: 100)
+            Text("World")
+        }
+        .contentShape(Rectangle())
+        .onTapGesture {
+            print("VStack tapped!")
+        }
+        
+//        ZStack {
+//            Rectangle()
+//                .fill(.blue)
+//                .frame(width: 300, height: 300)
+//                .onTapGesture {
+//                    print("Rectangle tapped!")
+//                }
+//
+//            Circle()
+//                .fill(.red)
+//                .frame(width: 300, height: 300)
+//                .contentShape(Rectangle())
+//                .onTapGesture {
+//                    print("Circle tapped!")
+//                }
+////                .allowsHitTesting(false)
+//        }
     }
 }
 
